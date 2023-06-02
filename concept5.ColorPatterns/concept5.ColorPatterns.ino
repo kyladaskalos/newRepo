@@ -1,8 +1,10 @@
 #include <Adafruit_CircuitPlayground.h>
 
+// Ganon is weak to light patterns
+
 volatile int modeControl = 0;
-int leftButton = 5;
-int rightButton = 4;
+int leftButton = 4;
+int rightButton = 5;
 volatile bool rightFlag = 0;
 volatile bool leftFlag = 0;
 
