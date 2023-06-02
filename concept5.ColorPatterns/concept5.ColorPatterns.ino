@@ -1,8 +1,8 @@
 #include <Adafruit_CircuitPlayground.h>
 
 volatile int modeControl = 0;
-int leftButton = 4;
-int rightButton = 5;
+int leftButton = 5;
+int rightButton = 4;
 volatile bool rightFlag = 0;
 volatile bool leftFlag = 0;
 
